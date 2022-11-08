@@ -1,0 +1,22 @@
+# GET http://localhost:7777/users
+
+# POST http://localhost:7777/users
+
+# {
+#     "dni": "2344234432X",
+#     "nombre": "Elsa2",
+#     "apellidos": "García2 Cardeña",
+#     "telefono": "715987264",
+#     "email": "laura.gc@gmail.com2",
+#     "iban": "ES956872345201987463895693",
+#     "transactions": []
+#   }
+
+# DELETE http://localhost:7777/users/maria.martol@gmail.com
+
+POST http://localhost:7777/users/2/transactions
+
+{
+    "id_receiver": "3" ,
+    "amount": 200
+}
